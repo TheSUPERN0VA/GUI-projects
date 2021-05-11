@@ -53,8 +53,23 @@ def week1():
     B3 = Button(text="Export List", bg = "8a7e42", command = exportPlayList)
     B3.grid(column = 1, row = 3)
 
-    #Bclear = Button(text="Clear", bg = "white", command= clearWindow)
-    #Bclear.grid(column = 20, row = 40)
+    Bclear = Button(text="Main Menu", bg = "white", command= mainMenu)
+    Bclear.grid(column = 1, row = 4)
+
+def week2():
+    clearWindow()
+
+    L1W2 = Label()
+    L2W2 = Label()
+    L3W2 = Label()
+
+    E1W2 = Entry()
+    E2W2 = Entry()
+
+    B1W2 = Button()
+
+
+    
 
 if __name__ == "__main__":
     mainMenu()
